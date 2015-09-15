@@ -1,11 +1,11 @@
 /** Tests! */
 var assert = require("assert");
 
-var code = require('../abstract-factory/abstract-factory');
-MazeGame = code.MazeGame;
-MazeFactory = code.MazeFactory;
-EnchantedMazeFactory = code.EnchantedMazeFactory;
-BombedMazeFactory = code.BombedMazeFactory;
+var impl = require('../abstract-factory/abstract-factory');
+MazeGame = impl.MazeGame;
+MazeFactory = impl.MazeFactory;
+EnchantedMazeFactory = impl.EnchantedMazeFactory;
+BombedMazeFactory = impl.BombedMazeFactory;
 
 describe('Abstract Factory tests', function () {
 
