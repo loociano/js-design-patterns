@@ -3,9 +3,12 @@ Design Patterns in Javascript
 
 Examples adapted from the Gang of Four.
 
-* Abstract Factory
+## Creational Patterns
 
-## Tests
+* Abstract Factory
+* Builder
+
+### Tests
 
 Run the tests executing:
 
