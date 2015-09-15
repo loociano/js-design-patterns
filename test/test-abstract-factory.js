@@ -1,7 +1,7 @@
 /** Tests! */
 var assert = require("assert");
 
-var code = require('../abstract-factory');
+var code = require('../abstract-factory/abstract-factory');
 MazeGame = code.MazeGame;
 MazeFactory = code.MazeFactory;
 EnchantedMazeFactory = code.EnchantedMazeFactory;
