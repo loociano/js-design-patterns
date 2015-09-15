@@ -3,6 +3,7 @@ function MazeGame(){}
 
 MazeGame.prototype = {
 
+  /** @param {MazeFactory} */
   createMaze: function(MazeFactory){
     if (!MazeFactory) return;
 

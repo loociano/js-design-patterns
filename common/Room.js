@@ -24,6 +24,10 @@ Room.prototype = {
 
   toString: function(){
     return 'room ' + this.number;
+  },
+
+  getSide: function(side){
+    return this.sides[side];
   }
 }
 
