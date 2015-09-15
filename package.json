@@ -1,0 +1,14 @@
+{
+  "name": "js-patterns",
+  "version": "1.0.0",
+  "description": "Design Patterns in JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Luciano Rubio <luciano@loociano.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^2.3.2"
+  }
+}
