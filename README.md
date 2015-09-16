@@ -7,6 +7,7 @@ Examples adapted from the Gang of Four.
 
 * Abstract Factory
 * Builder
+* Prototype
 
 ### Tests
 
