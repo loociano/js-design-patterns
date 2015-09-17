@@ -10,6 +10,10 @@ Examples adapted from the Gang of Four.
 * Singleton
 * Prototype
 
+## Structural Patterns
+
+* Adapter
+
 ### Tests
 
 Run the tests executing:
