@@ -1,3 +1,10 @@
+/** 
+  * TextShape is an adapter implemented with object composition 
+  * rather than multiple inheritance.
+  *
+  * TextShape inherits from Shape and keeps a reference to TextView
+  */
+
 /** Constructor 
     @param {TextView} t*/
 function TextShape(textView){
