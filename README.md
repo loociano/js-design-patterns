@@ -19,5 +19,5 @@ Examples adapted from the Gang of Four.
 Run the tests executing:
 
 ```
-mocha
+npm test
 ```
