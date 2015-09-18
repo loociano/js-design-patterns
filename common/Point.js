@@ -14,8 +14,22 @@ function Point(x, y){
   }
 }
 
-Point.prototype.toString = function(){
-  return this.x + ',' + this.y;
-}
+Point.prototype = {
+  
+  /** @return {number} */
+  getX: function(){
+    return this.x;
+  },
+
+  /** @return {number} */
+  getY: function(){
+    return this.y;
+  },
+
+  /** @return {string} */
+  toString: function(){
+    return this.x + ',' + this.y;
+  }
+};
 
 exports.Point = Point;
